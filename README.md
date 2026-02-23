@@ -6,7 +6,6 @@ This repository contains the source code for the Bond Yield Calculator applicati
 
 - `byc-fe`: Frontend application (React + Vite + TypeScript)
 - `byc-be`: Backend application (NestJS + TypeScript)
-- `PRD.md`: Product Requirements Document
 
 ## Getting Started
 
