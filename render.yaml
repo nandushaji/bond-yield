@@ -5,8 +5,8 @@ services:
     runtime: node
     plan: free
     rootDir: byc-be
-    buildCommand: npm install && npm run build
-    startCommand: npm run start:prod
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: node dist/main
     envVars:
       - key: NODE_ENV
         value: production
@@ -16,7 +16,7 @@ services:
     name: byc-frontend
     runtime: static
     rootDir: byc-fe
-    buildCommand: npm install && npm run build
+    buildCommand: npm ci --include=dev && npm run build
     staticPublishPath: dist
     headers:
       - path: /*
