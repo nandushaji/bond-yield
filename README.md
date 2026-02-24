@@ -17,6 +17,7 @@ This repository contains the source code for the Bond Yield Calculator applicati
 ### Running the Application
 
 1.  **Backend**:
+
     ```bash
     cd byc-be
     npm install
@@ -29,9 +30,3 @@ This repository contains the source code for the Bond Yield Calculator applicati
     npm install
     npm run dev
     ```
-
-## Features
-
-- Calculate Current Yield and Yield to Maturity (YTM)
-- Generate Cash Flow Schedule
-- Determine Premium/Discount status
