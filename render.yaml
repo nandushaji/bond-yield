@@ -15,7 +15,6 @@ services:
   - type: web
     name: byc-frontend
     runtime: static
-    plan: free
     rootDir: byc-fe
     buildCommand: npm install && npm run build
     staticPublishPath: dist
